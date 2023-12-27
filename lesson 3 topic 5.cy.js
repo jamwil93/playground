@@ -25,7 +25,7 @@ describe('test cases', () => {
     cy.get('#login-button').click
     cy.get('#add-to-cart-sauce-labs-backpack').click
     
-  }
+  })
   it('checkout', () => {
     cy.visit('https://www.saucedemo.com')
     cy.get('#username').type('standard_user')
@@ -40,4 +40,4 @@ describe('test cases', () => {
   
   
   })
-}
+})
