@@ -32,7 +32,7 @@ describe('test cases', () => {
     cy.get('#password').type('password')
     cy.get('#login-button').click
     cy.get('#add-to-cart-sauce-labs-backpack').click
-    cy.get('#shpping-cart-link').click
+    cy.get('#shopping-cart-link').click
 
 
   
