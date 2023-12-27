@@ -23,7 +23,7 @@ describe('test cases', () => {
     cy.get('#username').type('standard_user')
     cy.get('#password').type('password')
     cy.get('#login-button').click
-    cy.get('button').click('add-to-cart-sauce-labs-backpack')
+    cy.get('#add-to-cart-sauce-labs-backpack').click
     
   }
   it('checkout', () => {
@@ -31,8 +31,8 @@ describe('test cases', () => {
     cy.get('#username').type('standard_user')
     cy.get('#password').type('password')
     cy.get('#login-button').click
-    cy.get('button').click('add-to-cart-sauce-labs-backpack')
-    cy.get('button').click('shopping-cart-link')
+    cy.get('#add-to-cart-sauce-labs-backpack').click
+    cy.get('#shpping-cart-link').click
 
 
   
